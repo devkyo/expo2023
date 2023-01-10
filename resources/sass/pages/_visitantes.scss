@@ -1,0 +1,26 @@
+.visitantes {
+  padding: 2rem 0;
+
+  &__info {
+    width: 98%;
+    height: 400px;
+    background-color: #333;
+    position: relative;
+    margin: 1rem auto;
+    border-radius: 5px 5px 0 0;
+    background: url('../images/bg-visitantes.jpg');
+    background-size: cover;
+    &-content {
+      width: 500px;
+      height: 200px;
+      padding: 1rem;
+      border-radius: 5px 5px 0 0;
+      position: absolute; 
+      right: 10%;
+      bottom: 2px;
+      background: #fff;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}

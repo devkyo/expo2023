@@ -1,0 +1,38 @@
+.head {
+
+  &__title {
+    height: 300px;
+    width: 100%;
+    background-image: url('../images/bg-head.png');
+    background-size: cover;
+    
+   
+    &-content {
+      // padding-bottom: 1rem;
+   
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      height: 300px;
+      color: #fff;
+      h1 {
+        
+        font-weight: bolder;
+      }
+    }
+  }
+
+  @media (max-width: 600px){
+    &__title {
+
+      &-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(30px);
+      }
+    }
+  }
+  
+}
